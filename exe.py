@@ -6,7 +6,11 @@ type(slownik)
 slownik.keys()
 list(slownik.keys())
 slownik.values()
-'herbata' in slownik
+x = 'herbata' in slownik
 print(slownik.keys())
 print(list(slownik.keys()))
 print(slownik.values())
+print('herbata' in slownik)
+
+if x == True:
+    print('Kawa jest w slowniku')

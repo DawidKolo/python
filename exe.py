@@ -14,3 +14,8 @@ print('herbata' in slownik)
 
 if x == True:
     print('Kawa jest w slowniku')
+
+if 'kawa' in slownik == False:
+    print('Kawy nie ma w słowniku')
+else:
+    print('Kawa jest w słowniku')

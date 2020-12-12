@@ -1,17 +1,17 @@
 # -*- coding: utf-8 -*-
 
 def function():
-    age = int(input('Ile masz lat? '))
+    age = int(input('How old are you? '))
     if 18 <= age < 110:
-            print('Jesteś pełnoletni')
+            print('You are an adult')
     elif age < 18:
         x = (18 - age) 
-        print('Będziesz pełnoletni za '+str(x)+' lat')
+        print('You will become an adult in '+str(x)+' year(s)')
     else:
-        print('Ludzie tyle nie żyją!')
+        print('People don\'t live so long')
 
 try:
     function()    
 
-except: print('Następnym razem podaj liczbę')
+except: print('Just numbers, please')
 function()

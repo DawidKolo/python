@@ -3,11 +3,11 @@ for t in range(0,3):
     for x in range(0,7):
         for y in range(0,14):
             if (y < (7 - x) or (y > 7 + x)):
-                print(" ", end ='')
+                print(" ", end='')
             else:
-                print("*", end = '')
+                print("*", end='')
         
-        print(" ")
+        print("")
 
 for s in range(0,4):
     for r in range(0,14):

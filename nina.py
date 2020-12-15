@@ -1,5 +1,5 @@
-x = input('Czy Ty lubisz Media Expert? ')
+x = input('Czy Ty lubisz kuzynkę Alę? ')
 if x == ("tak" or "Tak"):
-    print('Ja też lubię Media expert')
+    print('Ja też lubię Alę')
 else:
-    print('Wolę Media Markt')
+    print('Ja wolę Alexa')
